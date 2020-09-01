@@ -11,11 +11,8 @@ const GradientItem = props => {
         backgroundImage: `linear-gradient(${props.inputValueFirst}, ${props.inputValueSecond})`
     };
 
-    console.log('props ', props, itemStyle);
-
     return (
         <div style={itemStyle}>
-            <p>lolo</p>
             <button>remove</button>
         </div>
     )};
